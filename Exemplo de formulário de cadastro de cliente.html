@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title>
+			Formulário de Cadastro de Clientes
+		</title>
+	</head>
+	<body>
+		<b>
+			<font face="times new roman" color="blue" align="left" size="4">
+				Cadastro de Clientes
+			</font>
+			<br>
+			<br>
+			<hr width="100%" size="2" color="gray">
+			<form name="identificacao">
+				<label>
+					Nome:
+				</label>
+				<input type="text" name="Nome" value="seu nome" size="50">
+				<br>
+				<br>
+				<label>
+					Digite seu E-mail:
+				</label>
+				<input type="text" name="email" value="seu email" size="50">
+				<label>
+					Senha do E-mail:
+				</label>
+				<input type="password" name="senha" maxlength="8">
+				<br>
+				<label>
+					Sexo:
+				</label>
+				<br>
+				<input type="radio" name="sexo" value="Masculino">
+					Masculino
+				<br>
+				<input type="radio" name="sexo" value="Feminino">
+					Feminino
+				<br>
+			</form>
+		</b>
+		<form name="preferencias">
+			<b>
+				<font face="times new roman" align="left" size="4">
+					Produtos comprados:
+					<br>
+				</font>
+			</b>
+			<input type="checkbox" name="produto" value="Computador">
+				Computador
+			<br>
+			<input type="checkbox" name="produto" value="Impressora">
+				Impressora
+			<br>
+			<input type="checkbox" name="produto" value="Monitor">
+				Monitor
+			<br>
+			<input type="checkbox" name="produto" value="Teclado">
+				Teclado
+			<br>
+			<br>
+			<b>
+				<font face="times new roman" align="left" size="4">
+					Estado: 
+				</font>
+			</b>
+			<select name="estado" size="1">
+				<option selected>MG
+				<option>AC
+				<option>AL
+				<option>AP
+				<option>BA
+			</select>
+			<br>
+			<br>
+			<b>
+				<font face="times new roman" align="left" size="4">
+					Histórico do cliente: 
+					<br>
+				</font>
+			</b>
+			<textarea cols="40" rows="5" name="historico"></textarea>
+			<br>
+			<input type="file" name="Arquivos" value="Arquivo">
+			<input type="submit" name="Enviar" value="Enviar informações">
+			<input type="reset" name="reset" value="Limpar">
+		</form>
+	</body>
+</html>
